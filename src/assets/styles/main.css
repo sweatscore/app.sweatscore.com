@@ -1,1 +1,14 @@
 @import './base.css';
+
+body {
+    background-image: linear-gradient(to right, #8b56fe, #5ddee6);
+}
+
+.purple-button {
+    background-color: #a35edc;
+    border-color: #a35edc;
+}
+
+.purple-button:hover {
+    background-color: #884db9;
+}
