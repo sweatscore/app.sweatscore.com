@@ -1,14 +1,50 @@
-@import './base.css';
-
 body {
-    background-image: linear-gradient(to right, #8b56fe, #5ddee6);
+  background-color: #eee;
+  color: #000;
 }
 
 .purple-button {
-    background-color: #a35edc;
-    border-color: #a35edc;
+  background-color: #a35edc;
+  border-color: #a35edc;
 }
 
 .purple-button:hover {
-    background-color: #884db9;
+  background-color: #884db9;
 }
+
+.public-canvas {
+  background-image: linear-gradient(to right, #8b56fe, #5ddee6);
+  color: white;
+  height: 100vh;
+}
+.public-canvas a {
+  color: white;
+}
+.public-canvas h2 {
+  font-size: 1.2em;
+  text-align: center;
+}
+.public-canvas #afccb861 {
+  margin-top: 100px;
+}
+.public-canvas #c1a1fbje {
+  width: 50%;
+}
+.public-canvas .create-account-section {
+  max-width: 350px;
+  margin: auto;
+}
+.public-canvas .create-account-section p {
+  text-align: left;
+}
+.public-canvas .error-message {
+  margin-top: 10px;
+  color: brown;
+}
+.public-canvas .height-fields select {
+  width: 25%;
+  display: inline;
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

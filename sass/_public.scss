@@ -1,0 +1,44 @@
+.public-canvas {
+    background-image: linear-gradient(to right, #8b56fe, #5ddee6);
+    color: white;
+    height: 100vh;
+
+    a {
+        color: white;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #afccb861 {
+        margin-top: 100px;
+    }
+
+    #c1a1fbje {
+        width: 50%;
+    }
+
+    .create-account-section {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .create-account-section p {
+        text-align: left;
+    }
+
+    .error-message {
+        margin-top: 10px;
+        color: brown;
+    }
+
+    .height-fields {
+        select {
+            width: 25%;
+            display: inline;
+            margin-right: 5px;
+        }
+    }
+}
