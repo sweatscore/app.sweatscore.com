@@ -1,7 +1,6 @@
-.public-canvas {
+body.public {
     background-image: linear-gradient(to right, #8b56fe, #5ddee6);
     color: white;
-    height: 100vh;
 
     a {
         color: white;
@@ -12,21 +11,21 @@
         text-align: center;
     }
 
-    #afccb861 {
+    .afccb861 {
         margin-top: 100px;
     }
 
-    #c1a1fbje {
+    .c1a1fbje {
         width: 50%;
     }
 
-    .create-account-section {
+    .eiigjhh1 {
         max-width: 350px;
-        margin: auto;
-    }
+        margin: 0 auto 25px;
 
-    .create-account-section p {
-        text-align: left;
+        p {
+            text-align: left;
+        }
     }
 
     .error-message {
@@ -39,6 +38,17 @@
             width: 25%;
             display: inline;
             margin-right: 5px;
+        }
+    }
+
+    .birthday-fields {
+        div {
+            margin: 0 0 10px;
+        }
+
+        select {
+            display: inline;
+            width: 100px;
         }
     }
 }

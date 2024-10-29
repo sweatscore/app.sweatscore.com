@@ -12,39 +12,45 @@ body {
   background-color: #884db9;
 }
 
-.public-canvas {
+body.public {
   background-image: linear-gradient(to right, #8b56fe, #5ddee6);
   color: white;
-  height: 100vh;
 }
-.public-canvas a {
+body.public a {
   color: white;
 }
-.public-canvas h2 {
+body.public h2 {
   font-size: 1.2em;
   text-align: center;
 }
-.public-canvas #afccb861 {
+body.public .afccb861 {
   margin-top: 100px;
 }
-.public-canvas #c1a1fbje {
+body.public .c1a1fbje {
   width: 50%;
 }
-.public-canvas .create-account-section {
+body.public .eiigjhh1 {
   max-width: 350px;
-  margin: auto;
+  margin: 0 auto 25px;
 }
-.public-canvas .create-account-section p {
+body.public .eiigjhh1 p {
   text-align: left;
 }
-.public-canvas .error-message {
+body.public .error-message {
   margin-top: 10px;
   color: brown;
 }
-.public-canvas .height-fields select {
+body.public .height-fields select {
   width: 25%;
   display: inline;
   margin-right: 5px;
+}
+body.public .birthday-fields div {
+  margin: 0 0 10px;
+}
+body.public .birthday-fields select {
+  display: inline;
+  width: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
