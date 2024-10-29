@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import PublicView from '@/views/PublicView.vue'
-import LoginView from '@/views/LoginView.vue'
+import PublicDefault from '@/components/public/TheDefault.vue'
+import TheLogin from '@/components/public/TheLogin.vue'
 import HomeView from '@/views/HomeView.vue'
+import signupRoutes from '@/router/signup'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,22 +12,30 @@ const router = createRouter({
         {
             path: '/',
             name: 'public',
-            component: PublicView
-        },
-        {
-            path: '/login',
-            name: 'login',
-            component: LoginView
-        },
-        {
-            path: '/forgot-password',
-            name: 'forgot-password',
-            component: () => import('@/views/ForgotView.vue')
+            component: PublicView,
+            children: [
+                {
+                    path: '',
+                    name: 'index',
+                    component: PublicDefault
+                },
+                {
+                    path: '/login',
+                    name: 'login',
+                    component: TheLogin
+                }
+            ]
         },
         {
             path: '/signup',
             name: 'signup',
-            component: () => import('@/views/SignupView.vue')
+            component: PublicView,
+            children: signupRoutes
+        },
+        {
+            path: '/forgot-password',
+            name: 'forgot-password',
+            component: () => import('@/components/public/TheForgot.vue')
         },
         {
             path: '/home',
